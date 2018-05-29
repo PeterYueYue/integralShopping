@@ -31,10 +31,10 @@
         <div class="pic">
           <div class="picture">
             <img src="@/assets/icon_new.png" alt="" class="plus">
-            <img src="@/assets/pic_01.png" alt="" class="photo">
+            <img src="@/assets/pic_03.png" alt="" class="photo">
           </div>
-          <div class="name">汉堡王 20元代金券</div>
-          <div class="sore"><span>10</span>积分</div>
+          <div class="name">迷你小旋风风扇</div>
+          <div class="sore"><span>80</span>积分</div>
         </div>
       </div>
     </div>
