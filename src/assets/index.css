@@ -1,0 +1,123 @@
+.i_warp_banner {
+  width: 7.5rem;
+  height: 2.4rem;
+  background: #ff5a00;
+}
+
+.i_warp_zmd {
+  width: 7.5rem;
+  height: 0.6rem;
+  background: #fff;
+  overflow: hidden;
+}
+
+.i_warp_zmd .name {
+  width: 2rem;
+  line-height: 0.6rem;
+  float: left;
+  font-size: 0.3rem;
+  color: #000;
+  font-weight: bold;
+}
+
+.i_warp_zmd .name {
+  width: 2rem;
+  height: 0.6rem;
+  float: left;
+  font-size: 0.3rem;
+  color: #000;
+  font-weight: bold;
+  position: relative;
+}
+
+.i_warp_zmd span {
+  width: 1.2rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+
+.i_warp_zmd i {
+  width: 0.56rem;
+  height: 0.17rem;
+  position: absolute;
+  bottom: 0.14rem;
+  right: 0.43rem;
+  background: url("../assets/icon_new_bg.png") no-repeat;
+  background-size: 100%;
+  z-index: 1;
+}
+
+/* 定义一个走马灯动画 */
+
+@-webkit-keyframes marquee {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: -100%;
+  }
+}
+
+@-moz-keyframes marquee {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: -100%;
+  }
+}
+
+@-ms-keyframes marquee {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: -100%;
+  }
+}
+
+@-o-keyframes marquee {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: -100%;
+  }
+}
+
+@keyframes marquee {
+  0% {
+    left: 0
+  }
+  100% {
+    left: -100%
+  }
+}
+
+.i_warp_zmd .marquee {
+  width: 5.5rem;
+  height: 0.6rem;
+  overflow: hidden;
+  position: relative;
+  background: #fff;
+  color: #333;
+  font-size: 0.26rem;
+}
+
+.i_warp_zmd .marquee div {
+  display: block;
+  margin-left: 0.4rem;
+  width: 200%;
+  height: 0.6rem;
+  line-height: 0.6rem;
+  position: absolute;
+  overflow: hidden;
+  -webkit-animation: marquee 4s linear infinite;
+  -moz-animation: marquee 4s linear infinite;
+  -ms-animation: marquee 4s linear infinite;
+  -o-animation: marquee 4s linear infinite;
+  animation: marquee 4s linear infinite;
+}
