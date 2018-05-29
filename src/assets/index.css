@@ -127,7 +127,7 @@
   font-weight: bold;
   background: url("../assets/icon_hot_bg.png") no-repeat;
   background-size: 0.71rem 0.22rem;
-  background-position: 56% 84%;
+  background-position: 56% 72%;
 }
 
 .i_warp_hot .item {
@@ -205,7 +205,7 @@
   font-weight: bold;
   background: url("../assets/icon_hot_bg.png") no-repeat;
   background-size: 0.71rem 0.22rem;
-  background-position: 100% 82%;
+  background-position: 100% 76%;
   padding-right: 0.03rem;
 }
 
@@ -256,6 +256,34 @@
   margin-top: 0.1rem;
 }
 
+.i_warp_main .list .right .sale .card_new {
+  display: inline-block;
+  width: 0.96rem;
+  height: 0.32rem;
+  line-height: 0.32rem;
+  text-align: center;
+  border-radius: 0.16rem;
+  background: linear-gradient(#ff9815, #ff5e01);
+  position: relative;
+  top: -0.04rem;
+  color: #fff;
+  font-size: 0.2rem;
+}
+
+.i_warp_main .list .right .sale .card_plus {
+  display: inline-block;
+  width: 0.96rem;
+  height: 0.32rem;
+  line-height: 0.32rem;
+  text-align: center;
+  border-radius: 0.16rem;
+  background: linear-gradient(#e1bd75, #ca9954);
+  position: relative;
+  top: -0.04rem;
+  color: #fff;
+  font-size: 0.2rem;
+}
+
 .i_warp_main .list .right .number {
   font-size: 0.24rem;
   color: #888;
@@ -265,7 +293,6 @@
 .i_warp_main .list .right .number.cur {
   color: #ff6200;
 }
-
 
 .i_warp_main .list .right .number .points {
   font-size: 0.36rem;
@@ -277,4 +304,12 @@
   position: relative;
   right: 0.2rem;
   top: 0.05rem;
+}
+
+.i_warp_main .list .out {
+  width: 1.81rem;
+  height: 1.11rem;
+  position: absolute;
+  top: 0.3rem;
+  right: 0.35rem;
 }

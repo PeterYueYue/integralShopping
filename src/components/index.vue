@@ -53,7 +53,7 @@
           <img src="@/assets/pic_01.png" alt="" class="shop">
           <div class="right">
             <div class="title"><img src="@/assets/icon_huo.png" alt="">汉堡王30元超值代金券</div>
-            <div class="sale">兑换条件：</div>
+            <div class="sale">兑换条件：<span class="card_new">金卡会员</span></div>
             <div class="number cur"><span class="points">100</span>积分<span class="exchange">1000人兑换</span></div>
           </div>
         </div>
@@ -62,9 +62,10 @@
           <img src="@/assets/pic_02.png" alt="" class="shop">
           <div class="right">
             <div class="title">汉堡王30元超值代金券</div>
-            <div class="sale">兑换条件：</div>
+            <div class="sale">兑换条件：<span class="card_plus">PLUS会员</span></div>
             <div class="number"><span class="points">100</span>积分<span class="exchange">1000人兑换</span></div>
           </div>
+          <img src="@/assets/icon_out.png" alt="" class="out">
         </div>
       </div>
     </div>
