@@ -1,7 +1,16 @@
 .i_warp_banner {
   width: 7.5rem;
   height: 2.4rem;
-  background: #ff5a00;
+}
+
+.i_warp_banner img {
+  width: 7.5rem;
+  height: 2.4rem;
+}
+
+.i_warp_banner {
+  width: 7.5rem;
+  height: 2.4rem;
 }
 
 .i_warp_zmd {
@@ -21,33 +30,16 @@
 }
 
 .i_warp_zmd .name {
-  width: 2rem;
+  width: 1.8rem;
   height: 0.6rem;
   float: left;
   font-size: 0.3rem;
   color: #000;
   font-weight: bold;
-  position: relative;
-}
-
-.i_warp_zmd span {
-  width: 1.2rem;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 2;
-}
-
-.i_warp_zmd i {
-  width: 0.56rem;
-  height: 0.17rem;
-  position: absolute;
-  bottom: 0.14rem;
-  right: 0.43rem;
+  text-align: center;
   background: url("../assets/icon_new_bg.png") no-repeat;
-  background-size: 100%;
-  z-index: 1;
+  background-size: 0.56rem 0.17rem;
+  background-position: 78% 61%;
 }
 
 /* 定义一个走马灯动画 */
@@ -98,7 +90,7 @@
 }
 
 .i_warp_zmd .marquee {
-  width: 5.5rem;
+  width: 5.7rem;
   height: 0.6rem;
   overflow: hidden;
   position: relative;
@@ -120,4 +112,99 @@
   -ms-animation: marquee 4s linear infinite;
   -o-animation: marquee 4s linear infinite;
   animation: marquee 4s linear infinite;
+}
+
+.i_warp_hot {
+  background: #fff;
+  margin-top: 0.2rem;
+  padding: 0.3rem 0;
+}
+
+.i_warp_hot .title {
+  font-size: 0.36rem;
+  color: #000;
+  text-align: center;
+  font-weight: bold;
+  background: url("../assets/icon_hot_bg.png") no-repeat;
+  background-size: 0.71rem 0.22rem;
+  background-position: 56% 84%;
+}
+
+.i_warp_hot .item {
+  overflow: hidden;
+  margin-top: 0.2rem;
+}
+
+.i_warp_hot .item .pic {
+  width: 33%;
+  float: left;
+}
+
+.i_warp_hot .item .pic .picture {
+  position: relative;
+}
+
+.i_warp_hot .item .pic .plus {
+  width: 0.6rem;
+  position: absolute;
+  top: 0.1rem;
+  right: 0.4rem;
+}
+
+.i_warp_hot .item .pic .photo {
+  width: 1.48rem;
+  height: 1.48rem;
+  display: block;
+  margin: 0 auto;
+}
+
+.i_warp_hot .item .pic .name {
+  font-size: 0.28rem;
+  color: #333;
+  text-align: center;
+  margin-top: 0.1rem;
+}
+
+.i_warp_hot .item .pic .sore {
+  font-size: 0.24rem;
+  color: #ff6300;
+  text-align: center;
+  margin-top: 0.08rem
+}
+
+.i_warp_hot .item .pic .sore span {
+  font-size: 0.34rem;
+}
+
+.i_warp_hot .item .pic .sore.hy {
+  color: #c99854;
+}
+
+.i_warp_go img {
+  display: block;
+  width: 6.72rem;
+  margin: 0.2rem auto;
+}
+
+.i_warp_tab ul {
+  overflow: hidden;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.i_warp_tab ul li {
+  float: left;
+  font-size: 0.3rem;
+  color: #000;
+}
+
+.i_warp_tab ul .active {
+  font-weight: bold;
+  background: url("../assets/icon_hot_bg.png") no-repeat;
+  background-size: 0.71rem 0.22rem;
+  background-position: 100% 82%;
+  padding-right: 0.03rem;
 }
