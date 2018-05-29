@@ -48,7 +48,25 @@
         <li>实物换购券</li>
         <li>现金抵价券</li>
       </ul>
-      <div class="main">123</div>
+      <div class="i_warp_main">
+        <div class="list">
+          <img src="@/assets/pic_01.png" alt="" class="shop">
+          <div class="right">
+            <div class="title"><img src="@/assets/icon_huo.png" alt="">汉堡王30元超值代金券</div>
+            <div class="sale">兑换条件：</div>
+            <div class="number cur"><span class="points">100</span>积分<span class="exchange">1000人兑换</span></div>
+          </div>
+        </div>
+        <div class="list">
+          <img src="@/assets/icon_plus.png" alt="" class="plus">
+          <img src="@/assets/pic_02.png" alt="" class="shop">
+          <div class="right">
+            <div class="title">汉堡王30元超值代金券</div>
+            <div class="sale">兑换条件：</div>
+            <div class="number"><span class="points">100</span>积分<span class="exchange">1000人兑换</span></div>
+          </div>
+        </div>
+      </div>
     </div>
 
   </div>

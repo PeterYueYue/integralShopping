@@ -189,7 +189,7 @@
 .i_warp_tab ul {
   overflow: hidden;
   list-style: none;
-  margin: 0;
+  margin: 0 0 0.2rem 0;
   padding: 0;
   display: flex;
   justify-content: space-around;
@@ -207,4 +207,74 @@
   background-size: 0.71rem 0.22rem;
   background-position: 100% 82%;
   padding-right: 0.03rem;
+}
+
+.i_warp_main .list {
+  box-sizing: border-box;
+  padding: 0.3rem 0 0.3rem 0.3rem;
+  background: #fff;
+  margin-bottom: 0.2rem;
+  overflow: hidden;
+  position: relative;
+}
+
+.i_warp_main .list .shop {
+  float: left;
+  display: block;
+  width: 1.48rem;
+  height: 1.48rem;
+}
+
+.i_warp_main .list .plus {
+  width: 0.6rem;
+  position: absolute;
+  top: 0.4rem;
+  left: 1.1rem;
+}
+
+.i_warp_main .list .right {
+  float: left;
+  margin-left: 0.24rem;
+  width: 75%;
+}
+
+.i_warp_main .list .right .title {
+  font-size: 0.34rem;
+  color: #333;
+}
+
+.i_warp_main .list .right .title img {
+  width: 0.29rem;
+  height: 0.31rem;
+  position: relative;
+  top: 0.02rem;
+}
+
+.i_warp_main .list .right .sale {
+  font-size: 0.24rem;
+  color: #888;
+  margin-top: 0.1rem;
+}
+
+.i_warp_main .list .right .number {
+  font-size: 0.24rem;
+  color: #888;
+  margin-top: 0.1rem;
+}
+
+.i_warp_main .list .right .number.cur {
+  color: #ff6200;
+}
+
+
+.i_warp_main .list .right .number .points {
+  font-size: 0.36rem;
+}
+
+.i_warp_main .list .right .exchange {
+  float: right;
+  color: #888;
+  position: relative;
+  right: 0.2rem;
+  top: 0.05rem;
 }
