@@ -1,0 +1,14 @@
+html, body {
+  background: #f7f6fb;
+  margin: 0;
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.s_warp {
+  width: 7.5rem;
+  height: 6rem;
+  background: #fff;
+  position: relative;
+}
