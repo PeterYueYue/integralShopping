@@ -1,7 +1,7 @@
 html, body {
   background: #f7f6fb;
   margin: 0;
-  padding: 0;
+  padding: 0 0 2rem 0;
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -60,4 +60,47 @@ html, body {
   font-size: 0.28rem;
   color: #666;
   margin-top: 0.08rem;
+}
+
+.d_warp_main .icon_arrow {
+  width: 0.36rem;
+  height: 0.36rem;
+  position: absolute;
+  top: 50%;
+  right: 0.3rem;
+  transform: translateY(-50%);
+}
+
+.d_warp_footer {
+  width: 7.5rem;
+  height: 1rem;
+  background: #fff;
+  position: fixed;
+  bottom: 0;
+  box-shadow: 0 -0.02rem 0.07rem 0 #ddd;
+  overflow: hidden;
+}
+
+.d_warp_footer .account {
+  float: left;
+  font-size: 0.3rem;
+  color: #333;
+  line-height: 1rem;
+  margin-left: 0.3rem;
+}
+
+.d_warp_footer .account span {
+  font-size: 0.36rem;
+  color: #ff6200;
+}
+
+.d_warp_footer .btn {
+  float: right;
+  width: 2.53rem;
+  height: 1rem;
+  line-height: 1rem;
+  background: #ff6200;
+  color: #fff;
+  text-align: center;
+  font-size: 0.36rem;
 }
