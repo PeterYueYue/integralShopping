@@ -7,8 +7,57 @@ html, body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.d_warp {
+.d_warp_banner {
   width: 7.5rem;
-  height: 2.4rem;
-  background: red;
+  height: 6rem;
+  background: #fff;
+  position: relative;
+}
+
+.d_warp_banner img {
+  display: block;
+  width: 3.6rem;
+  height: 3.6rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.d_warp_main {
+  box-sizing: border-box;
+  width: 7.5rem;
+  padding: 0.3rem;
+  background: #fff;
+  margin-top: 0.2rem;
+  position: relative;
+}
+
+.d_warp_main .title {
+  font-size: 0.34rem;
+  color: #333;
+}
+
+.d_warp_main .date {
+  font-size: 0.28rem;
+  color: #888;
+  margin-top: 0.05rem;
+}
+
+.d_warp_main .sore {
+  font-size: 0.3rem;
+  color: #ff6200;
+  position: absolute;
+  top: 0.2rem;
+  right: 0.3rem;
+}
+
+.d_warp_main .sore span {
+  font-size: 0.48rem;
+}
+
+.d_warp_main .text {
+  font-size: 0.28rem;
+  color: #666;
+  margin-top: 0.08rem;
 }
