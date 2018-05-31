@@ -1,6 +1,6 @@
-/* index banner */
-
 $(function () {
+
+  /* index banner */
   var c = 0
 
   function timer() {
@@ -22,9 +22,19 @@ $(function () {
   })
   //点击圆点变换
   $('.i_warp_banner .dos .dor a').click(function () {
-    //获得序号
     var n = $(this).index();
     $('.i_warp_banner .tu img').eq(n).stop().show().siblings().hide();
     $('.i_warp_banner .dos .dor a').eq(n).stop().addClass('dors').siblings().removeClass('dors');
   })
+
+
+  /* index tab */
+  $('.i_warp_tab ul li').click(function () {
+    var i = $(this).index();
+    $(this).addClass('active').siblings().removeClass('active');
+    $('.i_warp_item .i_warp_main').eq(i).show().siblings().hide();
+  });
+
 })
+
+

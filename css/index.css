@@ -259,7 +259,16 @@ html, body {
   padding-right: 0.03rem;
 }
 
+.i_warp_main {
+  display: none;
+}
+
+.i_warp_main.show {
+  display: block;
+}
+
 .i_warp_main .list {
+  display: block;
   box-sizing: border-box;
   padding: 0.3rem 0 0.3rem 0.3rem;
   background: #fff;

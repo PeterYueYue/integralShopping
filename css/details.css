@@ -25,12 +25,14 @@ html, body {
 }
 
 .d_warp_main {
+  display: block;
   box-sizing: border-box;
   width: 7.5rem;
   padding: 0.3rem;
   background: #fff;
   margin-top: 0.2rem;
   position: relative;
+  text-decoration: none;
 }
 
 .d_warp_main .title {
