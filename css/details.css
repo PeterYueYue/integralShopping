@@ -35,7 +35,19 @@ html, body {
   text-decoration: none;
 }
 
-.d_warp_main .title {
+.d_warp_store {
+  display: block;
+  box-sizing: border-box;
+  margin-top: 0.2rem;
+  padding: 0.3rem;
+  width: 7.5rem;
+  height: 1rem;
+  background: #fff;
+  position: relative;
+  text-decoration: none;
+}
+
+.d_warp_main .title, .d_warp_store .title {
   font-size: 0.34rem;
   color: #333;
 }
@@ -64,7 +76,7 @@ html, body {
   margin-top: 0.08rem;
 }
 
-.d_warp_main .icon_arrow {
+.d_warp_store .icon_arrow {
   width: 0.36rem;
   height: 0.36rem;
   position: absolute;
