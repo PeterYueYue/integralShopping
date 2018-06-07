@@ -88,8 +88,8 @@ html, body {
   font-weight: bold;
   text-align: center;
   background: url("../images/icon_new_bg.png") no-repeat;
-  background-size: 0.56rem 0.17rem;
-  background-position: 78% 61%;
+  background-size: 0.68rem 0.31rem;
+  background-position: 75% 64%;
 }
 
 /* 定义一个走马灯动画 */
@@ -176,8 +176,8 @@ html, body {
   text-align: center;
   font-weight: bold;
   background: url("../images/icon_hot_bg.png") no-repeat;
-  background-size: 0.71rem 0.22rem;
-  background-position: 56% 72%;
+  background-size: 0.83rem 0.36rem;
+  background-position: 54.8% 91%;
 }
 
 .i_warp_hot .item {
@@ -246,6 +246,7 @@ html, body {
 }
 
 .i_warp_tab ul li {
+  height: 0.46rem;
   float: left;
   font-size: 0.3rem;
   color: #000;
@@ -254,8 +255,8 @@ html, body {
 .i_warp_tab ul .active {
   font-weight: bold;
   background: url("../images/icon_hot_bg.png") no-repeat;
-  background-size: 0.71rem 0.22rem;
-  background-position: 100% 76%;
+  background-size: 0.83rem 0.36rem;
+  background-position: 96% 80%;
   padding-right: 0.03rem;
 }
 
@@ -357,7 +358,7 @@ html, body {
 
 .i_warp_main .list .right .sale .card_new {
   display: inline-block;
-  width: 0.96rem;
+  width: 0.6rem;
   height: 0.32rem;
   line-height: 0.32rem;
   text-align: center;
@@ -371,7 +372,7 @@ html, body {
 
 .i_warp_main .list .right .sale .card_plus {
   display: inline-block;
-  width: 0.96rem;
+  width: 0.6rem;
   height: 0.32rem;
   line-height: 0.32rem;
   text-align: center;

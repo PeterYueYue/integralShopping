@@ -50,6 +50,7 @@ html, body {
 .d_warp_main .title, .d_warp_store .title {
   font-size: 0.34rem;
   color: #333;
+  font-weight: bold;
 }
 
 .d_warp_main .date {
@@ -97,15 +98,17 @@ html, body {
 
 .d_warp_footer .account {
   float: left;
-  font-size: 0.3rem;
+  font-size: 0.34rem;
   color: #333;
   line-height: 1rem;
   margin-left: 0.3rem;
+  font-weight: bold;
 }
 
 .d_warp_footer .account span {
   font-size: 0.36rem;
   color: #ff6200;
+  font-weight: normal;
 }
 
 .d_warp_footer .btn {
