@@ -234,6 +234,10 @@ html, body {
   color: #c99854;
 }
 
+.i_warp_go {
+  display: block;
+}
+
 .i_warp_go img {
   display: block;
   width: 6.72rem;

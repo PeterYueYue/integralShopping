@@ -1,0 +1,36 @@
+html, body {
+  background: #f7f6fb;
+  margin: 0;
+  padding: 0;
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ad_pic{
+  display: block;
+  width: 7.5rem;
+}
+
+.ad_text {
+  text-align: center;
+  font-size: 0.3rem;
+  color: #cfa056;
+  height: 1rem;
+  line-height: 1rem;
+  margin-bottom: 1.2rem;
+}
+
+.ad_footer {
+  width: 7.5rem;
+  height: 1rem;
+  line-height: 1rem;
+  background: #cfa056;
+  position: fixed;
+  bottom: 0;
+  box-shadow: 0 -0.02rem 0.07rem 0 #ddd;
+  overflow: hidden;
+  font-size: 0.36rem;
+  color: #fff;
+  text-align: center;
+}
